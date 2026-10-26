@@ -1,0 +1,46 @@
+
+body{
+    background-color: lightblue; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+body img{
+    
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+
+}
+
+body h1{
+
+    color:darkred;
+    font-family:'Impact', fantasy;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 50;
+
+}
+
+#info{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    color: black;
+}
+
+#info2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 550px;
+    color: black;
+}
