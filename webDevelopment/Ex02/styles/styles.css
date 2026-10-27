@@ -1,0 +1,41 @@
+.cartao{
+    width: 300px;
+    height: 350px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.cartao h1{
+    position: relative;
+    bottom: -190px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cartao p{
+    position: relative;
+    bottom: -180px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#cartao1{
+    position: absolute;
+    left: 0px;
+}
+
+#cartao2{
+    position: absolute;
+    left: 370px;
+}
+
+#cartao3{
+    position: absolute;
+    left: 740px;
+}

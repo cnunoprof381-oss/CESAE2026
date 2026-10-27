@@ -1,0 +1,51 @@
+.index{
+    background-color: bisque;
+    margin: 20px;
+}
+
+header, footer{
+    text-align: center;
+}
+
+header img{
+    width: 50%;
+}
+
+nav, footer{
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav a{
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer{
+    position: bottom;
+}
+
+header{
+    position: top;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body li{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#Formulario fieldset{
+    margin: auto;
+
+}
