@@ -1,18 +1,19 @@
 .cartao{
     width: 300px;
-    height: 350px;
+    height: 320px;
     border-style: solid;
     border-color: darkblue;
     border-width: 5px;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
-    padding: 20px;
-    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
 }
 
 .cartao h1{
     position: relative;
-    bottom: -190px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-weight: bold;
@@ -20,22 +21,16 @@
 
 .cartao p{
     position: relative;
-    bottom: -180px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
 }
 
-#cartao1{
-    position: absolute;
-    left: 0px;
-}
-
-#cartao2{
-    position: absolute;
-    left: 370px;
-}
-
-#cartao3{
-    position: absolute;
-    left: 740px;
+img{
+    margin-bottom: -10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
 }
