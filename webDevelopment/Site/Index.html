@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Patas Amigas</title>
+    <meta charset="UTF-8">
+    <link href="C:\Users\sd09\Documents\GitHub\CESAE2026\webDevelopment\Site\Styles\Styles.css" rel="stylesheet">
+    </head>
+    <header>
+            <h1>Patas</h1><h1 style="color: rgb(236, 80, 236); margin: 0px;">Amigas</h1>
+            <nav>
+                <a href="">Animais</a>
+                <a href="">Como adotar</a>
+                <a href="">Visitas</a>
+                <a href="">Contacto</a>
+            </nav>
+    </header>
+            <body>
+                <div id="top">
+                    <h1>Dá uma casa a quem só precisa de carinho</h1>
+                    <p>Somos uma associação do Porto que acolhe cães, gatos e coelhos à<br> espera de uma familia</p>
+                    <a href="">Conhecer os animais</a>
+                </div>
+            <div style="width: 1000px; display: flex; flex-direction: column; margin: 0 auto">
+                <h1>Animais para adoção</h1>
+                <div id="container">
+                    <div class="box" id="box1">
+                        <img src="C:\Users\sd09\Documents\GitHub\CESAE2026\webDevelopment\Site\img\cao.svg">
+                        <h1>Rex</h1>
+                        <p>Cão, 3 anos. Adora passear e<br> brincar com a bola</p> 
+                    </div>
+                      <div class="box" id="box2">
+                         <img src="C:\Users\sd09\Documents\GitHub\CESAE2026\webDevelopment\Site\img\gato.svg">
+                         <h1>Mia</h1>
+                         <p>Gata, 2 anos. Tranquila, gosta de<br> dormir ao sol.</p>
+                    </div>
+                      <div class="box" id="box3">
+                         <img src="C:\Users\sd09\Documents\GitHub\CESAE2026\webDevelopment\Site\img\coelho.svg">
+                         <h1>Tambor</h1>
+                         <p>Coelho, 1 ano. Curioso e muito <br>meigo.</p>
+                    </div>
+                </div>
+                <h1>Como adotar</h1>
+                <ol>
+                    <li>Escolha o animal que mais combina contigo</li>
+                    <li>Preenche o formulário</li>
+                    <li>Visita-nos para conheceres pessoalmente</li>
+                    <li>Leva o teu novo amigo para casa</li>                    
+                </ol>
+                <h1>Horário de visitas</h1>
+                <table>
+                    <tr>
+                        <td>Dia</td>
+                        <td>Horário</td>
+                    </tr>
+                      <tr>
+                        <td>Segunda a sexta</td>
+                        <td>14h00 às 18h00</td>
+                    </tr>
+                      <tr>
+                        <td>Sábado</td>
+                        <td>10h00 às 13h00</td>
+                    </tr>
+                      <tr>
+                        <td>Domingo</td>
+                        <td>Encerrado</td>
+                    </tr>
+                </table>
+                <h1>Contacto</h1>
+                <form>
+                    <fieldset style="border-radius: 10px">
+                        <label for="name">Nome</label><br>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email"><br><br>
+                        <label for="animal">Animal</label><br>
+                        <select id="animal" name="animal">
+                            <option value="rex">Rex</option>
+                            <option value="mia">Mia</option>
+                            <option value="tambor">Tambor</option>
+                        </select><br><br>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="3" cols="40"></textarea><br><br>
+                        <input type="submit" value="Enviar">     
+                    </fieldset>
+                </form>
+            </div>    
+            </body>
+</html>
