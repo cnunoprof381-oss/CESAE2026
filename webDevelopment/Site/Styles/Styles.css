@@ -1,25 +1,22 @@
 header{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     height: 70px;
+    width: 1000px;   
+    margin: 0 auto 
 }
 
-header nav{
-    position: relative;
-    left: 1200px;
-    top: -5px;
-    
+header nav{ 
+    margin-left: 450px;
+}
+
+nav a:hover{
+        color: #b8006a;
 
 }
 
-header h1{
-    position: relative;
-     top: -5px;
-     left: 200px;
-     font-size: 30px;
-
-}
 
 header a, h1{
     margin-left: 6px;
@@ -31,15 +28,22 @@ header a{
     text-decoration: none;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f9;
+}
 #top{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: darkblue;
+    margin: 0 auto;
+    background-color: #1d1148;
     color: white;
     text-align: center;
     height: 320px;
+    width: 1000px;   
+    margin-bottom: 10px;
 
 }
 
@@ -53,16 +57,15 @@ header a{
 }
 
 #top a{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(255, 60, 180);
-    border-radius: 50px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    font-size: 16px;
+   width: 200px; 
+   height: 20px; 
+   padding: 10px; 
+   border-radius: 20px; 
+   background-color: #e40084; 
+   font-weight: bold; 
+   color: white;
+   cursor: pointer;
+   text-decoration: none;
 }
 
 #container{
@@ -82,7 +85,8 @@ header a{
     border-style: solid;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 13px;
+    margin-top: 10px;
+    margin-bottom: 13px;
     border-radius: 20px;
 }
 
@@ -102,7 +106,70 @@ img{
 }
 
 li{
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
+
+table{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+td, tr{
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px;
+}
+
+#tabletitle{
+    background-color: #1d1148;
+    color:white;
+}
+
+fieldset{
+    background-color: white;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input, select{
+      margin-top: 5px;
+      width: 389px;
+      height: 26px;
+      border-radius: 5px;
+}
+
+textarea{
+    margin-top: 5px;
+    width: 389px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+footer{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #1d1148;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
 
