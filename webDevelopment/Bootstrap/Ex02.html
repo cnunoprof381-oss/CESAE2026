@@ -12,26 +12,124 @@
             color:white;
           }
 
+          #box{
+            width: 100%;
+          }
+
+          .card{
+            margin-right: 10px;
+          }
+
+
     </style>
 </head>    
   <body>
-    <header class="bg-dark">
-        <div class="container mb-5">
-        <div class="row bg-dark text-white text-center d-flex align-items-center" style="height: 60px;" >
-            <div class="col-2" style="margin-right: 870px;">
-                <h1>MinhaLoja</h1>
+
+<header class="bg-dark">
+    <div class="container">
+
+        <!-- Navbar responsiva: expande a partir do breakpoint LG -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <!-- Nome da loja -->
+            <a class="navbar-brand" href="#">MinhaLoja</a>
+
+            <!-- Botão toggle apresentado em ecrãs pequenos -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Abrir navegação">
+
+                <!-- Ícone das três linhas do menu -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Conteúdo recolhível da navbar -->
+            <div class="collapse navbar-collapse justify-content-end"
+                 id="navbarNav">
+
+                <!-- Links de navegação -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+
             </div>
-            <div class="col-2">
-                <nav class="navbar" data-bs-theme="dark">
-                    <a href="#">Início</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Contacto</a>
-                </nav>
-            </div>
-        </div>
+        </nav>
     </div>
 </header>
-    <h1 style="display: flex; justify-content: center;margin: 0 auto;">Os nossos produtos</h1>
+
+    <div class="container">
+        <div class="row"><h1 class="d-flex justify-content-center mb-3">Os nossos produtos</h1></div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                </div>
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                </div>
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                </div>
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                
+            </div>
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                
+            </div>
+                <div class="card p-0" style="width: 26rem;">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Uma descrição da carta do produto 1</p>
+                        <a href="#" class="btn btn-primary" id="box">Pedir informação</a>
+                    </div>
+                </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+<div class="row bg-dark mt-4">
+    <div class="col-12 d-flex justify-content-center text-white text-center">
+        <p class="pt-3">@ 2026 Minha Loja</p>
+    </div>
+</div>
+</body>
 </html>
