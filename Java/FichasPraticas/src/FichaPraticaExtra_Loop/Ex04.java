@@ -8,18 +8,26 @@ public class Ex04 {
             }
             System.out.print("\n");
         }
+
+        System.out.println("\n_________________________________________\n");
         for (int i = 0; i <= 5; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.print("\n");
         }
-        for(int i = 0; i <= 5; i++){
-            for(int j = 0; j < i + ; j++){
-                if(j == 0)
-                {
-                    System.out.print("*");
-                }
+
+        System.out.println("\n_________________________________________\n");
+
+        for (int linha = 0; linha <= 5; linha++) {
+            for (int espaco = 5-linha; espaco >= 0; espaco--) {
+                System.out.print(" ");
+            }
+
+            for (int ast = 0; ast < linha * 2 + 1; ast++) {
+
+                System.out.print("*");
+
             }
             System.out.print("\n");
         }
