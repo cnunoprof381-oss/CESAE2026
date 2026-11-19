@@ -1,0 +1,40 @@
+Front-End:
+
+What is Front-End Development?
+
+Front-End development is the creation User Experience(UX) and as consequence the design of the User Interface(UI).
+Everything that requires you to interact with it, whether it is games or a web page, is created by a team of Front-End developers to ensure the interaction is as smooth and as intuitive as possible. Users can tell whenever the UI of an application is poorly made.
+
+The main goal of Front-End Development is ensure that visual and interactive aspects of an application or website is user-friendly, visually appealing and responsive.
+
+*SHOW EXAMPLES OF FRONT-END(GAME UI/WEB PAGES/WHATEVER ELSE)*
+
+User Experience(UX)
+
+What is UX?
+
+User Experience refers to the overall feel of an application. How responsive it is, intuitive it is to use, ect… Everything refering to how the user feels when interacting with an application is part of the User Experience.
+The overall goal of a front-end development is ensure the User Experience is up to par. 
+
+User Interface(UI)
+
+What is UI?
+
+A user interface(UI) is the point of contact and interactive space between a user and a machine. It uses elements such as buttons, menus, typography, icons and layouts.
+
+A well designed User Interface is a very important part to the quality of the User Experience.
+
+There are many types of UI such as: 
+Graphical User Interface(GUI) which uses windows, icons, menus and buttons users interact with using keyboard, mouse or a touchscreen(Ex: Desktop apps)
+Mobile UI you use your fingers on a touchscreen.
+
+Examples of Front-End focused languages:
+
+*SHOW HTML, CSS, JAVASCRIPT*
+
+Seeing as we're learning these three in our Front-End class, I've decided to show these three as examples, there are many more, but these are very common.
+
+An importante aspect about front-end development is the fact while it's resposible for showing you and taking data, it doesn't store it. 
+
+ 
+

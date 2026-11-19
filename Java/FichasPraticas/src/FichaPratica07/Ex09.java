@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Ex09 {
-
     public static String[][] getInfo(String path){
         String[][] matriz = new String[getLineNum(path)][4];
         try{
@@ -13,6 +12,7 @@ public class Ex09 {
            Scanner sc = new Scanner(file);
            sc.nextLine();
            int counter = 0;
+
            while(sc.hasNext()){
                String line = sc.nextLine();
                String[] split = line.split(",");
